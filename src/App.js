@@ -1,11 +1,15 @@
+//Components
+import { NavBar } from './components/NavBar';
+import { ItemListContainer } from './containers/ItemListContainer';
+
+//Estilos
 import './App.css';
-import NavBar from './components/NavBar';
 
 function App() {
   return (
-    <div>
+    <div className='App'>
       <NavBar />
-    <hr />
+      <ItemListContainer greeting = "Enfoque al infinito" />
     </div>
   );
 }
